@@ -1,13 +1,12 @@
-import { ProductList } from ".."
-
+import { ProductList, useProducts } from "..";
 
 export const CompleteListPage = () => {
+  const { isLoading, products } = useProducts({});
   return (
     <div className="flex-col">
       <h1 className="text-2xl font-bold">Todos los productos</h1>
-
-      <ProductList />
-
+      {isLoading && <p>loading ...</p>}
+      <ProductList products={products} />
     </div>
-  )
-}
+  );
+};

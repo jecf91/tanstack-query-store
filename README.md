@@ -1,27 +1,52 @@
-# React + TypeScript + Vite
+Here's a professional and informative `README.md` tailored to your `my-store` project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 🛒 My Store
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A modern e-commerce frontend application built with **React**, **Vite**, **TypeScript**, and styled using **Tailwind CSS**. It leverages **React Query** for efficient data fetching and state management, along with a polished UI powered by **NextUI** and **Framer Motion** animations.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📦 Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+- **React 18**
+- **Vite** – Lightning-fast dev environment and bundler
+- **TypeScript** – Static typing
+- **Tailwind CSS** – Utility-first CSS
+- **NextUI** – Modern UI components
+- **React Hook Form** – Form handling
+- **React Query** – Async state management
+- **React Router DOM** – Client-side routing
+- **Axios** – HTTP requests
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v16+ recommended)
+- npm / yarn
+
+### Installation
+
+```bash
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Development Server
+
+```bash
+npm run dev
+```
+
+Runs the app in development mode at [http://localhost:5173](http://localhost:5173)
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Compiles TypeScript and bundles the app using Vite.
