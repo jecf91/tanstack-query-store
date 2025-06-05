@@ -1,7 +1,3 @@
-Here's a professional and informative `README.md` tailored to your `my-store` project:
-
----
-
 # 🛒 My Store
 
 A modern e-commerce frontend application built with **React**, **Vite**, **TypeScript**, and styled using **Tailwind CSS**. It leverages **React Query** for efficient data fetching and state management, along with a polished UI powered by **NextUI** and **Framer Motion** animations.
